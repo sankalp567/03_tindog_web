@@ -49,6 +49,9 @@ h1{
         text-align: center;
         /* height: 205vh; */
     }
+    #title nav-item{
+        text-align: left;
+    }    
     .title-img{
         transform: rotate(0deg);
     }
@@ -122,7 +125,7 @@ h2{
     padding: 3% 2%;
 }
 .card{
-    height: 65vh;
+    height: 370px;
 }
 .card:hover{
     box-shadow:0 0 30px 30px #ef817284
