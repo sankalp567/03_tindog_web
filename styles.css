@@ -1,0 +1,154 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#title{
+    background-color: #ff4c68;
+    color: white;
+    /* height: 100vh; */
+}
+
+.container-fuild{
+    padding: 3% 15% 0;
+}
+
+h1{
+    font-family: "Montserrat-black", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+/* navigation bar */
+
+.navbar{
+    padding:0 0 4.5rem !important;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem !important;
+    /* here wwe have to use !important becuse sometime we can not re write bootstrap directly */
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 10px;
+}
+.nav-link,.search{
+    font-family: "Montserrat-thin";
+    font-size: 1.2rem;
+}
+/* download-button */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+/* title-image */
+.title-img{
+    width: 60%;
+    transform: rotate(25deg) translateX(35%) translateY(10%);
+    /* position: absolute; */
+}
+@media  screen and (max-width:1028px) {
+    #title{
+        text-align: center;
+        /* height: 205vh; */
+    }
+    .title-img{
+        transform: rotate(0deg);
+    }
+}
+/* features */
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    /* here we use position relatie and z-index to overlap phone img by features-seaction */
+}
+.feature-1{
+    text-align: center;
+}
+.icon2{
+    color: #ef8172;
+    font-size: 3rem;
+}
+.icon2:hover{
+    color: #ff4c68;
+}
+h3{
+    font-size: 1.5rem;
+    font-family: "Montserrat-bold";
+}
+p{
+    color: #8f8f8f;
+}
+
+/* testimonials */
+#testimonials{
+    /* padding: 7% 15%; */
+    text-align: center;
+    background-color: #ef8172;
+    color:white;
+}
+h2{
+    font-family: "Montserrat-bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.test-img{
+    margin: 20px;
+    width: 15%;
+    border-radius: 100%;
+}
+/* FOR GETTING BOTTOM AT FAR FORM CCONTENT  we will give padding to onoly carousel-item*/
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* press */
+#press{
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-img{
+    width: 20%;
+    padding: 3%;
+}
+
+/* price */
+#pricing{
+    text-align: center;
+    padding: 3% 15%;
+}
+.price-cards{
+    padding: 3% 2%;
+}
+.card{
+    height: 65vh;
+}
+.card:hover{
+    box-shadow:0 0 30px 30px #ef817284
+    /* it is use to create shadow of object  */
+}
+
+/* cta */
+
+#cta{
+    padding: 3% 23%;
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+    font-family: "Montserrat-black";
+}
+
+/* footer */
+#footer{
+    padding: 3% 15%;
+    text-align: center;
+}
+.footer-img{
+    padding: 2%;
+    color: black;
+}
+
+.footer-img:hover{
+    box-shadow:0 0 5px 5px #ef817286;
+}
